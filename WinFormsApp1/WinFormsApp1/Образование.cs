@@ -38,13 +38,15 @@ namespace WinFormsApp1
 
         private void button4_Click(object sender, EventArgs e)
         {
+            dataGridView1.Rows.Clear();
             string connectionString = "provider=Microsoft.ACE.OLEDB.12.0;Data Source=SystemDataBase.mdb";
             OleDbConnection dbConnection = new OleDbConnection(connectionString);
 
             dbConnection.Open();
-            string query = "SELECT * FROM Таблица2";
+            string query = "SELECT * FROM Таблица2 WHERE Средний_балл >= 8.2";
             OleDbCommand dbCommand = new OleDbCommand(query, dbConnection);
             OleDbDataReader dbReader = dbCommand.ExecuteReader();
+
 
             if (dbReader.HasRows == false)
             {
@@ -58,8 +60,28 @@ namespace WinFormsApp1
                 }
             }
 
+           
             dbReader.Close();
             dbConnection.Close();
+
+            
+
+            //Выполянем запрос к БД
+            dbConnection.Open();//открываем соеденение
+            string query2 = "DELETE FROM Таблица2 WHERE Средний_балл <= 8.2";//строка запроса
+            OleDbCommand dbCommand2 = new OleDbCommand(query2, dbConnection);//команда
+
+            if (dbCommand2.ExecuteNonQuery() != 1)
+                MessageBox.Show("Ошибка выполнения запроса!", "Ошибка!");
+            else
+            {
+                MessageBox.Show("Данные удалены!", "Внимание!");
+                //Удаляем данные из таблицы в форме
+            }
+
+            dbConnection.Close();
+
+
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -86,6 +108,8 @@ namespace WinFormsApp1
 
             dbReader.Close();
             dbConnection.Close();
+
+
         }
 
         private void button3_Click(object sender, EventArgs e)
