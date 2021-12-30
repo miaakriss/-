@@ -49,7 +49,7 @@ namespace WinFormsApp1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(277, 9);
+            this.label1.Location = new System.Drawing.Point(496, 50);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(348, 68);
             this.label1.TabIndex = 0;
@@ -57,7 +57,7 @@ namespace WinFormsApp1
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(325, 164);
+            this.textBox1.Location = new System.Drawing.Point(544, 205);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(250, 27);
             this.textBox1.TabIndex = 3;
@@ -66,7 +66,7 @@ namespace WinFormsApp1
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(325, 206);
+            this.textBox2.Location = new System.Drawing.Point(544, 247);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(250, 27);
             this.textBox2.TabIndex = 4;
@@ -75,7 +75,7 @@ namespace WinFormsApp1
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(325, 256);
+            this.textBox3.Location = new System.Drawing.Point(544, 297);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(250, 27);
             this.textBox3.TabIndex = 5;
@@ -84,7 +84,7 @@ namespace WinFormsApp1
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(325, 305);
+            this.textBox7.Location = new System.Drawing.Point(544, 346);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(250, 27);
             this.textBox7.TabIndex = 9;
@@ -95,7 +95,7 @@ namespace WinFormsApp1
             // 
             this.button3reg.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(220)))), ((int)(((byte)(198)))));
             this.button3reg.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3reg.Location = new System.Drawing.Point(325, 420);
+            this.button3reg.Location = new System.Drawing.Point(544, 461);
             this.button3reg.Name = "button3reg";
             this.button3reg.Size = new System.Drawing.Size(250, 29);
             this.button3reg.TabIndex = 14;
@@ -108,7 +108,7 @@ namespace WinFormsApp1
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.White;
             this.label2.ForeColor = System.Drawing.Color.Gray;
-            this.label2.Location = new System.Drawing.Point(334, 167);
+            this.label2.Location = new System.Drawing.Point(553, 208);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(142, 20);
             this.label2.TabIndex = 15;
@@ -120,7 +120,7 @@ namespace WinFormsApp1
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.White;
             this.label3.ForeColor = System.Drawing.Color.Gray;
-            this.label3.Location = new System.Drawing.Point(334, 209);
+            this.label3.Location = new System.Drawing.Point(553, 250);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(150, 20);
             this.label3.TabIndex = 16;
@@ -131,7 +131,7 @@ namespace WinFormsApp1
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.White;
             this.label4.ForeColor = System.Drawing.Color.Gray;
-            this.label4.Location = new System.Drawing.Point(334, 259);
+            this.label4.Location = new System.Drawing.Point(553, 300);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(143, 20);
             this.label4.TabIndex = 17;
@@ -142,7 +142,7 @@ namespace WinFormsApp1
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.White;
             this.label5.ForeColor = System.Drawing.Color.Gray;
-            this.label5.Location = new System.Drawing.Point(334, 308);
+            this.label5.Location = new System.Drawing.Point(553, 349);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(168, 20);
             this.label5.TabIndex = 18;
@@ -150,7 +150,7 @@ namespace WinFormsApp1
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(376, 351);
+            this.textBox4.Location = new System.Drawing.Point(595, 392);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(145, 27);
             this.textBox4.TabIndex = 19;
@@ -162,7 +162,7 @@ namespace WinFormsApp1
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.White;
             this.label6.ForeColor = System.Drawing.Color.Gray;
-            this.label6.Location = new System.Drawing.Point(385, 354);
+            this.label6.Location = new System.Drawing.Point(604, 395);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(24, 20);
             this.label6.TabIndex = 20;
@@ -184,7 +184,7 @@ namespace WinFormsApp1
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(149)))), ((int)(((byte)(163)))), ((int)(((byte)(179)))));
-            this.ClientSize = new System.Drawing.Size(884, 501);
+            this.ClientSize = new System.Drawing.Size(1325, 702);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.textBox4);
@@ -199,6 +199,7 @@ namespace WinFormsApp1
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Name = "Регистрация";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Регистрация";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Регистрация_FormClosed);
             this.Load += new System.EventHandler(this.Регистрация_Load);

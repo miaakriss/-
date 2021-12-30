@@ -58,7 +58,7 @@ namespace WinFormsApp1
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(14, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1299, 423);
+            this.panel1.Size = new System.Drawing.Size(1299, 588);
             this.panel1.TabIndex = 0;
             // 
             // pictureBox1
@@ -159,7 +159,7 @@ namespace WinFormsApp1
             this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(78)))), ((int)(((byte)(109)))));
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(78)))), ((int)(((byte)(109)))));
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(1110, 456);
+            this.button1.Location = new System.Drawing.Point(1091, 630);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(94, 34);
             this.button1.TabIndex = 1;
@@ -174,7 +174,7 @@ namespace WinFormsApp1
             this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(78)))), ((int)(((byte)(109)))));
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(78)))), ((int)(((byte)(109)))));
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(971, 456);
+            this.button2.Location = new System.Drawing.Point(957, 630);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(94, 34);
             this.button2.TabIndex = 2;
@@ -189,7 +189,7 @@ namespace WinFormsApp1
             this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(78)))), ((int)(((byte)(109)))));
             this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(78)))), ((int)(((byte)(109)))));
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(832, 456);
+            this.button3.Location = new System.Drawing.Point(827, 630);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(94, 34);
             this.button3.TabIndex = 3;
@@ -204,7 +204,7 @@ namespace WinFormsApp1
             this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(78)))), ((int)(((byte)(109)))));
             this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(78)))), ((int)(((byte)(109)))));
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(590, 456);
+            this.button4.Location = new System.Drawing.Point(587, 630);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(199, 34);
             this.button4.TabIndex = 4;
@@ -219,7 +219,7 @@ namespace WinFormsApp1
             this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(78)))), ((int)(((byte)(109)))));
             this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(78)))), ((int)(((byte)(109)))));
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Location = new System.Drawing.Point(26, 456);
+            this.button5.Location = new System.Drawing.Point(14, 630);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(94, 34);
             this.button5.TabIndex = 5;
@@ -232,7 +232,7 @@ namespace WinFormsApp1
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(149)))), ((int)(((byte)(163)))), ((int)(((byte)(179)))));
-            this.ClientSize = new System.Drawing.Size(1325, 502);
+            this.ClientSize = new System.Drawing.Size(1325, 702);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -240,6 +240,7 @@ namespace WinFormsApp1
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel1);
             this.Name = "Образование";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Образование";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Образование_FormClosed);
             this.panel1.ResumeLayout(false);

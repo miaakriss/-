@@ -40,7 +40,7 @@ namespace WinFormsApp1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(339, 9);
+            this.label1.Location = new System.Drawing.Point(574, 36);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(185, 68);
             this.label1.TabIndex = 0;
@@ -50,7 +50,7 @@ namespace WinFormsApp1
             // 
             this.prvtbuss.BackColor = System.Drawing.Color.White;
             this.prvtbuss.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.prvtbuss.Location = new System.Drawing.Point(298, 201);
+            this.prvtbuss.Location = new System.Drawing.Point(533, 249);
             this.prvtbuss.Name = "prvtbuss";
             this.prvtbuss.Size = new System.Drawing.Size(264, 56);
             this.prvtbuss.TabIndex = 1;
@@ -63,7 +63,7 @@ namespace WinFormsApp1
             this.inform.BackColor = System.Drawing.Color.White;
             this.inform.FlatAppearance.BorderSize = 2;
             this.inform.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.inform.Location = new System.Drawing.Point(298, 275);
+            this.inform.Location = new System.Drawing.Point(533, 367);
             this.inform.Name = "inform";
             this.inform.Size = new System.Drawing.Size(264, 56);
             this.inform.TabIndex = 2;
@@ -87,12 +87,13 @@ namespace WinFormsApp1
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(149)))), ((int)(((byte)(163)))), ((int)(((byte)(179)))));
-            this.ClientSize = new System.Drawing.Size(883, 507);
+            this.ClientSize = new System.Drawing.Size(1325, 702);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.inform);
             this.Controls.Add(this.prvtbuss);
             this.Controls.Add(this.label1);
             this.Name = "Меню";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Меню";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Меню_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

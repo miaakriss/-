@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FmJOs0sGAcqHOEyTj/5qhvcqgARd6irWXuglaobiQ5eILs0vfZvxww4Dis1CqwbjpFBt5R21Hw1E6tD20KDWYA==",
+  "dgSpecHash": "MOYNrtmFZLVkAIgKMqy6MUKZXiGgDV32tkXIG4p8yEt3YbCQku7seS3xvVx1rkEDOoWXqqpCiYj1ZUsDlYUZ1A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pisar\\OneDrive\\Рабочий стол\\практика ТРПО\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
+  "projectFilePath": "C:\\Users\\pisar\\OneDrive\\Рабочий стол\\Project\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pisar\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\pisar\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
